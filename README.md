@@ -1,1 +1,6 @@
-A simple, step-by-step guide to understand **Git workflow**, from creating files to **hosting your project on GitHub**
+---
+# 🚀 Git & GitHub Basics – Beginner Friendly Guide
+
+A simple, step-by-step guide to understand **Git workflow**, from creating files to **hosting your project on GitHub**.
+
+---
