@@ -268,13 +268,7 @@ Happy Coding 🚀
 
 ````
 
----
 
-## ✅ How to upload this README
 
-```cmd
-git add README.md
-git commit -m "Add Git & GitHub beginner guide"
-git push
-````
+
 
