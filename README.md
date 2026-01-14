@@ -278,14 +278,3 @@ git commit -m "Add Git & GitHub beginner guide"
 git push
 ````
 
----
-
-If you want next:
-
-* 🔥 **GitHub Pages hosting**
-* 🔐 **SSH setup instead of HTTPS**
-* 🧠 **Interview-ready Git questions**
-* 📄 **PDF / Cheat Sheet version**
-
-Just tell me 😄
-
