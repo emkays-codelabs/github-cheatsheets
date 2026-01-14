@@ -1,6 +1,3 @@
-Here’s a **generic, cleaned version** with **all personal names removed** and placeholders added where needed 👇
-(You can copy–paste this directly.)
-
 ---
 
 # 🚀 Git & GitHub Basics – Beginner Friendly Guide
