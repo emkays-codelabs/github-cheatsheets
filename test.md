@@ -1,12 +1,6 @@
-Here is your **final, clean, correctly formatted `.md` (Markdown) file**.
-You can copy–paste this directly into **Notion, Obsidian, GitHub, VS Code, or any Markdown editor** 📘✨
-
----
-
-```md
 # 📘 Hypothesis Testing – Complete & Clear Notes  
 
-✨ *Clean, corrected, and exam-ready!*  
+✨ Clean, corrected, and exam-ready!  
 
 These notes cover:  
 - 📊 Mean, Median, Mode  
@@ -29,29 +23,34 @@ These notes cover:
 These describe the **center** of a dataset.
 
 ### ➗ Mean (Average)  
-\[
-\text{Mean} = \frac{\sum x}{n}
-\]
 
-**Example:**  
+Mean = (Σx) / n  
+
+Where:  
+- Σx = sum of all values  
+- n = number of values  
+
+Example:  
 60, 70, 80  
 Mean = (60 + 70 + 80) / 3 = **70**
 
 ---
 
 ### 🔢 Median (Middle Value)  
+
 The middle value when data is ordered.
 
-**Example:**  
+Example:  
 60, 70, 80  
 Median = **70**
 
 ---
 
 ### 🔁 Mode (Most Frequent Value)  
+
 The value that appears most often.
 
-**Example:**  
+Example:  
 60, 70, 70, 80  
 Mode = **70**
 
@@ -94,7 +93,7 @@ The normal distribution is a **bell-shaped curve** 🔔
 | μ ± 2σ | 95% |
 | μ ± 3σ | 99.7% |
 
-**Example:**  
+Example:  
 If Mean = 70, SD = 5  
 - 68% → 65 to 75  
 - 95% → 60 to 80  
@@ -104,18 +103,15 @@ If Mean = 70, SD = 5
 
 ## 4️⃣ Z-Score  
 
-\[
-Z = \frac{x - \mu}{\sigma}
-\]
+Z = (x − μ) / σ  
 
-- \( x \) = observed value  
-- \( \mu \) = population mean  
-- \( \sigma \) = population SD  
+Where:  
+- x = observed value  
+- μ = population mean  
+- σ = population standard deviation  
 
-**Example:**  
-\[
-Z = \frac{80 - 70}{5} = 2
-\]
+Example:  
+Z = (80 − 70) / 5 = **2**
 
 ---
 
@@ -135,13 +131,11 @@ Z = \frac{80 - 70}{5} = 2
 
 ## 6️⃣ Hypothesis Testing  
 
-\[
-H_0: \mu = 70
-\]
+Null Hypothesis (H₀):  
+H₀: μ = 70  
 
-\[
-H_1: \mu \neq 70
-\]
+Alternative Hypothesis (H₁):  
+H₁: μ ≠ 70  
 
 ---
 
@@ -152,33 +146,26 @@ H_1: \mu \neq 70
 
 ---
 
-## 8️⃣ Z-Test  
+## 8️⃣ Z-Test (Large Sample, σ Known)  
 
-\[
-Z = \frac{\bar{x} - \mu}{\sigma / \sqrt{n}}
-\]
+Z = (x̄ − μ) / (σ / √n)  
 
-**Example:**  
-\[
-Z = \frac{-5}{1.67} \approx -3
-\]
+Example:  
+Z = (495 − 500) / (10 / √36)  
+Z = -5 / 1.67 ≈ **-3**
 
 ---
 
-## 9️⃣ T-Test  
+## 9️⃣ T-Test (Small Sample, σ Unknown)  
 
-\[
-t = \frac{\bar{x} - \mu}{s / \sqrt{n}}
-\]
+t = (x̄ − μ) / (s / √n)  
 
-**Example:**  
-\[
-t \approx 0.76
-\]
+Example:  
+t ≈ **0.76**
 
 ---
 
-## 🔟 T-Table  
+## 🔟 T-Table (α = 0.05, Two-Tailed)  
 
 | df | t |
 |----|---|
@@ -188,29 +175,29 @@ t \approx 0.76
 
 ## 1️⃣1️⃣ One-Tailed vs Two-Tailed  
 
-**Two-tailed:**  
-\[
-H_1: \mu \neq 70
-\]
+Two-tailed:  
+H₁: μ ≠ 70  
 
-**One-tailed:**  
-\[
-H_1: \mu > 70 \quad \text{or} \quad \mu < 70
-\]
+One-tailed:  
+H₁: μ > 70  
+or  
+H₁: μ < 70  
 
 ---
 
 ## 1️⃣2️⃣ Chi-Square (χ²) Test  
 
-\[
-\chi^2 = \sum \frac{(O - E)^2}{E}
-\]
+χ² = Σ (O − E)² / E  
+
+Where:  
+- O = observed frequency  
+- E = expected frequency  
 
 ---
 
 ## 1️⃣3️⃣ ANOVA  
 
-Compares **3 or more group means**.
+Used to compare **3 or more group means**.
 
 ---
 
@@ -236,18 +223,3 @@ Compares **3 or more group means**.
 - 📈 Z & T-tests → Compare means  
 - 🧮 Chi-square → Categories  
 - 📊 ANOVA → Many groups  
-
----
-```
-
----
-
-If you want, I can also:
-
-✅ Convert this to **PDF / Word**
-✅ Make a **1-page cheat sheet**
-✅ Add **MCQs + answers**
-✅ Create a **mock exam paper**
-✅ Design a **Canva / PPT version**
-
-Just tell me what you need 📚🔥
