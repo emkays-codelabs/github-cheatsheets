@@ -1,4 +1,4 @@
-# 📘 Statistics & Hypothesis Testing 
+# 📘 Hypothesis Testing amd T-test
 
 ---
 
