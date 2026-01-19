@@ -1,374 +1,293 @@
-Excellent — below is your **FULL, COMBINED, ELABORATED, EXAM-READY** document.
-
-It includes **everything**:
-
-✅ Definitions (hypothesis, p-value, alpha, etc.)
-✅ Mean, median, mode
-✅ Skewness
-✅ Normal distribution
-✅ Z-scores
-✅ Hypothesis testing
-✅ Z-test (with example)
-✅ **ALL types of t-tests** (one-sample, independent, paired)
-✅ Given example: **65, 68, 75, 80, 72**
-✅ P-value & alpha
-✅ One-tailed vs Two-tailed
-✅ Chi-square
-✅ ANOVA
-✅ **ALL tables** (Z-table, t-table)
-✅ How to read tables
-✅ How to find **p, t, Z**
-✅ When to use each test
-✅ Clear examples
-
-This is **100% GitHub & VS Code safe** (no LaTeX).
+# 📘 Hypothesis Testing – Complete, Clear & Exam-Ready Notes  
 
 ---
 
-# 📘 Hypothesis Testing – Complete, Clear & Exam-Ready Notes
-
-Save as:
-`hypothesis_testing_complete.md`
-
----
-
-## 1️⃣ Mean, Median & Mode
+## 1️⃣ Mean, Median & Mode  
 
 These describe the **center** of data.
 
-### Mean (Average)
+### Mean (Average)  
+Mean = (Sum of all values) / Number of values  
 
-Mean = (Sum of all values) / Number of values
-
-Example:
-60, 70, 80
+Example:  
+60, 70, 80  
 Mean = (60 + 70 + 80) / 3 = **70**
 
-### Median
-
-Middle value when data is ordered.
-
+### Median  
+Middle value when data is ordered.  
 60, 70, 80 → Median = **70**
 
-### Mode
-
-Most frequent value.
-
+### Mode  
+Most frequent value.  
 60, 70, 70, 80 → Mode = **70**
 
 ---
 
 ## 2️⃣ Skewness (Shape of Data)
 
-| Type         | Description                  | Example      |
-| ------------ | ---------------------------- | ------------ |
-| Right-skewed | Tail on right, Mean > Median | Income       |
-| Left-skewed  | Tail on left, Mean < Median  | Easy exam    |
-| Symmetric    | Mean = Median = Mode         | Normal curve |
+| Type | Description | Example |
+|------|------------|---------|
+| Right-skewed | Tail on right, Mean > Median | Income |
+| Left-skewed | Tail on left, Mean < Median | Easy exam |
+| Symmetric | Mean = Median = Mode | Normal curve |
 
 ---
 
-## 3️⃣ Normal Distribution
+## 3️⃣ Normal Distribution  
 
-Bell-shaped curve 🔔
-Mean = Median = Mode
+Bell-shaped curve 🔔  
+Mean = Median = Mode  
 
-### 68-95-99.7 Rule
+### 68–95–99.7 Rule  
 
-| Range  | % of Data |
-| ------ | --------- |
-| μ ± 1σ | 68%       |
-| μ ± 2σ | 95%       |
-| μ ± 3σ | 99.7%     |
+| Range | % of Data |
+|------|-----------|
+| μ ± 1σ | 68% |
+| μ ± 2σ | 95% |
+| μ ± 3σ | 99.7% |
 
 ---
 
-## 4️⃣ Z-Score
+## 4️⃣ Z-Score  
 
-Measures how far a value is from the mean.
+Measures distance from the mean.
 
-Z = (x − μ) / σ
+Z = (x − μ) / σ  
 
-Example:
-x = 80, μ = 70, σ = 5
+Example:  
 Z = (80 − 70) / 5 = **2**
 
 ---
 
 ## 5️⃣ Standard Normal Distribution (Z-Table)
 
-Mean = 0, SD = 1
+Mean = 0, SD = 1  
 
-| Z     | Area to Left |
-| ----- | ------------ |
-| 0.00  | 0.5000       |
-| 1.00  | 0.8413       |
-| 1.96  | 0.9750       |
-| -1.00 | 0.1587       |
+| Z | Area to Left |
+|---|--------------|
+| 0.00 | 0.5000 |
+| 1.00 | 0.8413 |
+| 1.96 | 0.9750 |
+| -1.00 | 0.1587 |
 
-### How to Read Z-Table
-
-1. Row = first two digits
-2. Column = second decimal
-3. Value = area to left
-
-Example:
-Z = 1.23 → Area ≈ 0.8907
+### How to Read Z-Table  
+1. Row = first two digits  
+2. Column = second decimal  
+3. Value = area to the left  
 
 ---
 
-## 6️⃣ What is a Hypothesis?
+## 6️⃣ What is a Hypothesis?  
 
 A **hypothesis** is a claim about a population.
 
-Example:
-“The average score is 70.”
+Example:  
+"The average score is 70."
 
 ---
 
-## 7️⃣ What is Hypothesis Testing?
+## 7️⃣ Hypothesis Testing  
 
-A method to decide whether a claim about a population is **likely true** using sample data.
+Uses **sample data** to test a population claim.
 
 ---
 
-## 8️⃣ Null & Alternative Hypotheses
+## 8️⃣ Null & Alternative Hypotheses  
 
-### Null Hypothesis (H₀)
-
-No change / no difference
-H₀: μ = 70
+### Null Hypothesis (H₀)  
+No change / no difference  
+H₀: μ = 70  
 
 ### Alternative Hypothesis (H₁)
 
-| Type         | Form   | Meaning        |
-| ------------ | ------ | -------------- |
-| Two-tailed   | μ ≠ 70 | Any difference |
-| Right-tailed | μ > 70 | Increase       |
-| Left-tailed  | μ < 70 | Decrease       |
+| Type | Form | Meaning |
+|------|------|---------|
+| Two-tailed | μ ≠ 70 | Any difference |
+| Right-tailed | μ > 70 | Increase |
+| Left-tailed | μ < 70 | Decrease |
 
 ---
 
-## 9️⃣ Alpha (α)
+## 9️⃣ Alpha (α)  
 
-Alpha is the **significance level**.
+Significance level  
+Common value: **0.05**
 
-Common value:
-α = 0.05 (5%)
-
-It means:
-We accept a **5% risk** of rejecting a true H₀.
+Means:  
+5% risk of rejecting a true H₀
 
 ---
 
-## 🔟 P-Value
+## 🔟 P-Value  
 
-The p-value shows how likely the result is **if H₀ is true**.
+Probability of getting the result **if H₀ is true**.
 
-| p-value  | Decision         |
-| -------- | ---------------- |
-| p ≤ 0.05 | Reject H₀        |
+| p-value | Decision |
+|--------|----------|
+| p ≤ 0.05 | Reject H₀ |
 | p > 0.05 | Do not reject H₀ |
 
-Small p → Strong evidence
-Large p → Weak evidence
+Small p → Strong evidence  
+Large p → Weak evidence  
 
 ---
 
 ## 1️⃣1️⃣ Z-Test (Large Sample, σ Known)
 
-### When to Use
-
-* n ≥ 30
-* σ known
-* Testing a mean
+### When to Use  
+- n ≥ 30  
+- σ known  
+- Testing a mean  
 
 Z = (x̄ − μ) / (σ / √n)
 
-### Example
+### Example  
+Claim: μ = 500  
+Sample mean = 495  
+σ = 10, n = 36  
 
-Claim: μ = 500
-Sample mean = 495
-σ = 10, n = 36
+Z = (495 − 500) / (10 / 6)  
+Z ≈ **−3**  
 
-Z = (495 − 500) / (10 / 6)
-Z = −5 / 1.67 ≈ **−3**
-
-p ≈ 0.0026
-
-### Conclusion
-
-Reject H₀
-Bottles are underfilled.
+p ≈ 0.0026 → Reject H₀  
+Conclusion: Bottles are underfilled.
 
 ---
 
 ## 1️⃣2️⃣ T-Test (Small Sample, σ Unknown)
 
-General formula:
-
 t = (x̄ − μ) / (s / √n)
 
 ---
 
-## 1️⃣3️⃣ Types of T-Tests
+## 1️⃣3️⃣ Types of T-Tests  
 
-| Type        | Purpose               |
-| ----------- | --------------------- |
-| One-Sample  | Compare to known mean |
-| Independent | Compare two groups    |
-| Paired      | Before vs After       |
+| Type | Purpose |
+|------|---------|
+| One-sample | Compare to known mean |
+| Independent | Compare two groups |
+| Paired | Before vs After |
 
 ---
 
-## 1️⃣4️⃣ One-Sample T-Test (With Your Example)
+## 1️⃣4️⃣ One-Sample T-Test Example  
 
-Scores:
-65, 68, 75, 80, 72
+Scores: 65, 68, 75, 80, 72  
 
-Mean = 72
-SD ≈ 5.87
-n = 5
+Mean = 72  
+SD ≈ 5.87  
+n = 5  
 
-t = (72 − 70) / (5.87 / √5)
-t = 2 / 2.62 ≈ **0.76**
+t = (72 − 70) / (5.87 / √5)  
+t ≈ **0.76**
 
-### Degrees of Freedom
+df = 5 − 1 = 4  
 
-df = 5 − 1 = 4
-
-From t-table (α = 0.05, two-tailed):
+From t-table:  
 t-critical = **2.776**
 
-Since:
-0.76 < 2.776
-
-### Conclusion
-
-Do NOT reject H₀
-No significant difference.
+0.76 < 2.776  
+Conclusion: Do not reject H₀  
 
 ---
 
-## 1️⃣5️⃣ Independent T-Test
+## 1️⃣5️⃣ Independent T-Test  
 
 Compares **two different groups**.
 
-Example:
-Class A mean = 70
-Class B mean = 75
+Example:  
+Class A vs Class B  
 
-H₀: μ₁ = μ₂
-H₁: μ₁ ≠ μ₂
-
-If p ≤ 0.05 → Groups differ.
+H₀: μ₁ = μ₂  
+H₁: μ₁ ≠ μ₂  
 
 ---
 
-## 1️⃣6️⃣ Paired T-Test
+## 1️⃣6️⃣ Paired T-Test  
 
-Compares **before & after** of same group.
+Compares **before & after**.
 
-Example:
-Before: 60, 65, 70
-After: 70, 75, 80
-
-If p ≤ 0.05 → Improvement is significant.
+Example:  
+Before: 60, 65  
+After: 70, 75  
 
 ---
 
 ## 1️⃣7️⃣ T-Table (α = 0.05, Two-Tailed)
 
-| df | t      |
-| -- | ------ |
-| 1  | 12.706 |
-| 2  | 4.303  |
-| 3  | 3.182  |
-| 4  | 2.776  |
-| 5  | 2.571  |
-| 10 | 2.228  |
-| ∞  | 1.960  |
+| df | t |
+|----|----|
+| 1 | 12.706 |
+| 2 | 4.303 |
+| 3 | 3.182 |
+| 4 | 2.776 |
+| 5 | 2.571 |
+| 10 | 2.228 |
+| ∞ | 1.960 |
 
-### How to Read
-
-1. Find df
-2. Choose α
-3. Pick tail type
-4. Compare |t| with t-critical
-
----
-
-## 1️⃣8️⃣ One-Tailed vs Two-Tailed
-
-| Test         | Hypothesis |
-| ------------ | ---------- |
-| Two-tailed   | μ ≠ 70     |
-| Right-tailed | μ > 70     |
-| Left-tailed  | μ < 70     |
+### How to Read  
+1. Find df  
+2. Choose α  
+3. Pick tail type  
+4. Compare |t| with t-critical  
 
 ---
 
-## 1️⃣9️⃣ Chi-Square (χ²) Test
+## 1️⃣8️⃣ One-Tailed vs Two-Tailed  
 
-Used for **categorical (count) data**.
-
-χ² = Σ (O − E)² / E
-
-Used for:
-
-* Goodness of fit
-* Independence
-
-Example:
-Die rolled 60 times
-Expected per face = 10
-Large χ² → Reject H₀
+| Test | Hypothesis |
+|------|------------|
+| Two-tailed | μ ≠ 70 |
+| Right-tailed | μ > 70 |
+| Left-tailed | μ < 70 |
 
 ---
 
-## 2️⃣0️⃣ ANOVA
+## 1️⃣9️⃣ Chi-Square (χ²) Test  
 
-Compares **3 or more group means**.
+For **categorical data**.
 
-Example:
-Scores of 3 classes
+χ² = Σ (O − E)² / E  
 
-If p ≤ 0.05 → At least one group is different.
-
----
-
-## 2️⃣1️⃣ When to Use Each Test
-
-| Situation          | Test       |
-| ------------------ | ---------- |
-| Large n, σ known   | Z-test     |
-| Small n, σ unknown | T-test     |
-| Categorical data   | Chi-square |
-| 3+ group means     | ANOVA      |
+Used for:  
+- Goodness of fit  
+- Independence  
 
 ---
 
-## 2️⃣2️⃣ Final Summary
+## 2️⃣0️⃣ ANOVA  
 
-• Mean, Median, Mode → Center
-• Skewness → Shape
-• Normal curve → Bell-shaped
-• Z-scores → Distance
-• Hypothesis testing → Check claims
-• Alpha → Significance level
-• P-value → Decision
-• Z-test & T-test → Compare means
-• Chi-square → Categories
-• ANOVA → Many groups
+Compares **3+ group means**.
+
+Example:  
+3 class scores  
+
+If p ≤ 0.05 → At least one group differs.
 
 ---
 
-If you want, I can now:
+## 2️⃣1️⃣ When to Use Each Test  
 
-📄 Convert to **PDF / Word**
-📘 Make a **1-page cheat sheet**
-📝 Add **MCQs + answers**
-🎯 Create a **mock exam paper**
-🎨 Design **PowerPoint / Canva slides**
+| Situation | Test |
+|----------|------|
+| Large n, σ known | Z-test |
+| Small n, σ unknown | T-test |
+| Categorical data | Chi-square |
+| 3+ means | ANOVA |
 
-Just tell me what you want next 😎📚
+---
+
+## 2️⃣2️⃣ Final Summary  
+
+• Mean, Median, Mode → Center  
+• Skewness → Shape  
+• Normal curve → Bell-shaped  
+• Z-scores → Distance  
+• Hypothesis testing → Check claims  
+• Alpha → Significance level  
+• P-value → Decision  
+• Z-test & T-test → Compare means  
+• Chi-square → Categories  
+• ANOVA → Many groups  
+
+---
