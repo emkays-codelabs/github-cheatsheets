@@ -25,14 +25,6 @@ Most frequent value.
 
 ## 2️⃣ Skewness (Shape of Data)
 
-Great — here is the **rewritten Skewness section** with the **image embedded directly** in **GitHub / VS Code–safe Markdown**.
-
-You can copy-paste this **exactly** into your `.md` file.
-
----
-
-## 📐 Skewness (Shape of Data)
-
 ![Skewness Diagram](An_educational_infographic_image_explains_skewness.png)
 
 **Skewness** describes the **shape of a dataset** and shows how the data is **distributed around the mean**.
