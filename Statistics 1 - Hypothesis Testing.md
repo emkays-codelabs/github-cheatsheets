@@ -1,4 +1,4 @@
-# 📘 Statistics & Hypothesis Testing – Complete Exam Notes  
+# 📘 Statistics & Hypothesis Testing 
 
 ---
 
