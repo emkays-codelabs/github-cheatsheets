@@ -25,13 +25,128 @@ Most frequent value.
 
 ## 2️⃣ Skewness (Shape of Data)
 
-| Type | Description | Example |
-|------|------------|---------|
-| Right-skewed | Mean > Median > Mode | Income |
-| Left-skewed | Mean < Median < Mode | Easy exam |
-| Symmetric | Mean = Median = Mode | Normal data |
+Great — here is the **rewritten Skewness section** with the **image embedded directly** in **GitHub / VS Code–safe Markdown**.
+
+You can copy-paste this **exactly** into your `.md` file.
 
 ---
+
+## 📐 Skewness (Shape of Data)
+
+![Skewness Diagram](An_educational_infographic_image_explains_skewness.png)
+
+**Skewness** describes the **shape of a dataset** and shows how the data is **distributed around the mean**.
+
+It tells us whether the data is:
+
+* Balanced
+* Pulled to the right
+* Pulled to the left
+
+Understanding skewness helps us interpret **averages**, choose the **right statistical test**, and understand **real-world data patterns**.
+
+---
+
+### 🔹 1. Symmetric Distribution
+
+A **symmetric** distribution has an equal spread on both sides of the center.
+
+#### Characteristics
+
+* Mean = Median = Mode
+* Balanced shape
+* No skew
+
+#### Example
+
+Normal distribution 🔔
+Exam scores centered around 70
+
+```
+      *
+    *   *
+  *       *
+    *   *
+      *
+```
+
+---
+
+### 🔹 2. Positively Skewed (Right-Skewed)
+
+The **tail is longer on the right side**.
+
+#### Characteristics
+
+* Mean > Median > Mode
+* Few **very large values** pull the mean to the right
+* Most data is on the left
+
+#### Example
+
+Income data 💰
+Most people earn average salaries, but a few earn very high salaries
+
+```
+****  
+  ****  
+     ******  
+```
+
+---
+
+### 🔹 3. Negatively Skewed (Left-Skewed)
+
+The **tail is longer on the left side**.
+
+#### Characteristics
+
+* Mean < Median < Mode
+* Few **very small values** pull the mean to the left
+* Most data is on the right
+
+#### Example
+
+Easy exam scores 📝
+Most students score high, few score very low
+
+```
+      ******  
+   ****  
+****  
+```
+
+---
+
+### 📊 Skewness Summary Table
+
+| Type         | Tail Direction | Mean Relation        | Example      |
+| ------------ | -------------- | -------------------- | ------------ |
+| Symmetric    | None           | Mean = Median = Mode | Normal curve |
+| Right-Skewed | Right          | Mean > Median > Mode | Income       |
+| Left-Skewed  | Left           | Mean < Median < Mode | Easy exam    |
+
+---
+
+### 📌 Key Exam Tips
+
+* **Right-skewed** → High values pull the mean right
+* **Left-skewed** → Low values pull the mean left
+* **Symmetric** → Balanced data
+
+---
+
+## 📁 Important File Setup
+
+Make sure your folder looks like this:
+
+```
+project-folder/
+│
+├── hypothesis_testing.md
+└── An_educational_infographic_image_explains_skewness.png
+```
+
 
 ## 3️⃣ Normal Distribution  
 
