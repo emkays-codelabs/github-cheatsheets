@@ -25,7 +25,7 @@ Most frequent value.
 
 ## 2️⃣ Skewness (Shape of Data)
 
-![Skewness Diagram](An_educational_infographic_image_explains_skewness.png)
+![Skewness Diagram](skewness.png)
 
 **Skewness** describes the **shape of a dataset** and shows how the data is **distributed around the mean**.
 
