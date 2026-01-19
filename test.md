@@ -120,12 +120,80 @@ Z = (80 − 70) / 5 = **2**
 - Mean = 0  
 - SD = 1  
 
-| Z | Area to Left |
-|---|--------------|
-| 0.00 | 0.5000 |
-| 1.00 | 0.8413 |
-| 1.96 | 0.9750 |
-| -1.00 | 0.1587 |
+### 🔍 What does “Area to the Left” mean?
+
+The **Area to the Left** shows the probability that a value is **LESS than** a given Z-score.
+
+| Z | Area to Left | Meaning |
+|---|--------------|---------|
+| 0.00 | 0.5000 | 50% of data is below the mean |
+| 1.00 | 0.8413 | 84.13% of data is below Z = 1 |
+| 1.96 | 0.9750 | 97.5% of data is below Z = 1.96 |
+| -1.00 | 0.1587 | 15.87% of data is below Z = -1 |
+
+Example:  
+If Z = 1.00, then **84.13%** of the data is less than that value.
+
+---
+
+## 📘 How to Read a Full Z-Table  
+
+A Z-table shows the **area to the left** of a Z-score.
+
+### Steps:
+
+1. Find the **row** for the first two digits of Z  
+2. Find the **column** for the second decimal  
+3. The intersection gives the **area to the left**
+
+### Example: Z = 1.23  
+
+Row = 1.2  
+Column = 0.03  
+Area ≈ **0.8907**
+
+Meaning:  
+**89.07%** of the data is below Z = 1.23
+
+---
+
+## 📉 How to Find P-Values Using Z  
+
+### Right-Tailed Test (H₁: μ > 70)
+
+p-value = 1 − Area to Left  
+
+Example:  
+Z = 1.50  
+Area = 0.9332  
+
+p = 1 − 0.9332 = **0.0668**
+
+---
+
+### Left-Tailed Test (H₁: μ < 70)
+
+p-value = Area to Left  
+
+Example:  
+Z = -1.20  
+Area = **0.1151**
+
+p = **0.1151**
+
+---
+
+### Two-Tailed Test (H₁: μ ≠ 70)
+
+p-value = 2 × (Smaller tail area)
+
+Example:  
+Z = 1.96  
+Area = 0.9750  
+
+Tail = 1 − 0.9750 = 0.025  
+
+p = 2 × 0.025 = **0.05**
 
 ---
 
