@@ -1,20 +1,6 @@
 # 📘 Hypothesis Testing – Complete & Clear Notes  
 
-✨ Clean, corrected, and exam-ready!  
-
-These notes cover:  
-- 📊 Mean, Median, Mode  
-- 📐 Skewness  
-- 🔔 Normal & Standard Normal Distribution  
-- 📏 Z-Score  
-- 🧪 Hypothesis Testing  
-- 📉 P-Value  
-- 📈 Z-Test  
-- 📚 T-Test  
-- 🧮 Chi-Square Test  
-- 📊 ANOVA  
-- ➡️ One-tailed & Two-tailed tests  
-- 🛠️ When to use each test  
+These notes explain the core ideas of **statistics and hypothesis testing** in a simple, clear, and exam-friendly way.
 
 ---
 
@@ -23,7 +9,6 @@ These notes cover:
 These describe the **center** of a dataset.
 
 ### ➗ Mean (Average)  
-
 Mean = (Σx) / n  
 
 Where:  
@@ -32,216 +17,230 @@ Where:
 
 Example:  
 60, 70, 80  
-Mean = (60 + 70 + 80) / 3 = **70**
+Mean = (60 + 70 + 80) / 3 = 70  
 
 ---
 
 ### 🔢 Median (Middle Value)  
-
-The middle value when data is ordered.
+The middle value after arranging data in order.
 
 Example:  
 60, 70, 80  
-Median = **70**
+Median = 70  
 
 ---
 
 ### 🔁 Mode (Most Frequent Value)  
-
 The value that appears most often.
 
 Example:  
 60, 70, 70, 80  
-Mode = **70**
+Mode = 70  
 
 ---
 
-## 2️⃣ Skewness  
+## 2️⃣ Skewness (Shape of Data)
 
-Skewness describes the **shape** of the data.
+Skewness describes how data is distributed.
 
-### ➡️ Right-Skewed (Positive Skew)  
+### ➡️ Right-Skewed  
 - Tail on the right  
 - Mean > Median > Mode  
-- Example: 💰 Income data  
+- Example: Income  
 
-### ⬅️ Left-Skewed (Negative Skew)  
+### ⬅️ Left-Skewed  
 - Tail on the left  
 - Mean < Median < Mode  
-- Example: 📝 Easy exam scores  
+- Example: Easy exams  
 
 ### ⚖️ Symmetric  
 - Mean = Median = Mode  
-- Example: 🔔 Normal distribution  
+- Example: Normal distribution  
 
 ---
 
 ## 3️⃣ Normal Distribution  
 
-The normal distribution is a **bell-shaped curve** 🔔  
+A **bell-shaped curve** where most values are near the mean.
 
-### Key Features  
+### Properties  
 - Symmetric  
 - Mean = Median = Mode  
-- Most values near the mean  
 
-### 📏 68–95–99.7 Rule  
+### 68–95–99.7 Rule  
 
 | Range | % of Data |
 |------|-----------|
-| μ ± 1σ | 68% |
-| μ ± 2σ | 95% |
-| μ ± 3σ | 99.7% |
+| Mean ± 1 SD | 68% |
+| Mean ± 2 SD | 95% |
+| Mean ± 3 SD | 99.7% |
 
-Example:  
-If Mean = 70, SD = 5  
-- 68% → 65 to 75  
-- 95% → 60 to 80  
-- 99.7% → 55 to 85  
+Example (Mean = 70, SD = 5):  
+65–75 → 68%  
+60–80 → 95%  
+55–85 → 99.7%  
 
 ---
 
 ## 4️⃣ Z-Score  
 
+Z shows how far a value is from the mean.
+
 Z = (x − μ) / σ  
 
-Where:  
-- x = observed value  
-- μ = population mean  
-- σ = population standard deviation  
-
 Example:  
-Z = (80 − 70) / 5 = **2**
+Z = (80 − 70) / 5 = 2  
 
 ---
 
 ## 5️⃣ Standard Normal Distribution  
 
-- Mean = 0  
-- SD = 1  
+Mean = 0  
+SD = 1  
 
-### 🔍 What does “Area to the Left” mean?
-
-The **Area to the Left** shows the probability that a value is **LESS than** a given Z-score.
-
-| Z | Area to Left | Meaning |
-|---|--------------|---------|
-| 0.00 | 0.5000 | 50% of data is below the mean |
-| 1.00 | 0.8413 | 84.13% of data is below Z = 1 |
-| 1.96 | 0.9750 | 97.5% of data is below Z = 1.96 |
-| -1.00 | 0.1587 | 15.87% of data is below Z = -1 |
-
-Example:  
-If Z = 1.00, then **84.13%** of the data is less than that value.
+| Z | Area to Left |
+|---|--------------|
+| 0.00 | 0.5000 |
+| 1.00 | 0.8413 |
+| 1.96 | 0.9750 |
+| -1.00 | 0.1587 |
 
 ---
 
-## 📘 How to Read a Full Z-Table  
+## 📘 How to Read a Z-Table  
 
-A Z-table shows the **area to the left** of a Z-score.
+1. Find the row (first two digits of Z)  
+2. Find the column (second decimal)  
+3. The value is the **area to the left**  
 
-### Steps:
+Example:  
+Z = 1.23 → Area = 0.8907  
 
-1. Find the **row** for the first two digits of Z  
-2. Find the **column** for the second decimal  
-3. The intersection gives the **area to the left**
-
-### Example: Z = 1.23  
-
-Row = 1.2  
-Column = 0.03  
-Area ≈ **0.8907**
-
-Meaning:  
-**89.07%** of the data is below Z = 1.23
+Meaning: 89.07% of values are below Z = 1.23  
 
 ---
 
 ## 📉 How to Find P-Values Using Z  
 
-### Right-Tailed Test (H₁: μ > 70)
+Right-tailed:  
+p = 1 − (area to left)
 
-p-value = 1 − Area to Left  
+Left-tailed:  
+p = area to left  
 
-Example:  
-Z = 1.50  
-Area = 0.9332  
-
-p = 1 − 0.9332 = **0.0668**
-
----
-
-### Left-Tailed Test (H₁: μ < 70)
-
-p-value = Area to Left  
-
-Example:  
-Z = -1.20  
-Area = **0.1151**
-
-p = **0.1151**
+Two-tailed:  
+p = 2 × (smaller tail)
 
 ---
 
-### Two-Tailed Test (H₁: μ ≠ 70)
+## 6️⃣ What is a Hypothesis?
 
-p-value = 2 × (Smaller tail area)
+A **hypothesis** is a claim about a population.
 
 Example:  
-Z = 1.96  
-Area = 0.9750  
-
-Tail = 1 − 0.9750 = 0.025  
-
-p = 2 × 0.025 = **0.05**
+"The average score is 70."
 
 ---
 
-## 6️⃣ Hypothesis Testing  
+## 7️⃣ What is Hypothesis Testing?
 
-Null Hypothesis (H₀):  
+Hypothesis testing uses **sample data** to decide whether a claim is likely true.
+
+---
+
+## 8️⃣ Types of Hypotheses  
+
+### Null Hypothesis (H₀)  
+No change / no difference  
+
+Example:  
 H₀: μ = 70  
 
-Alternative Hypothesis (H₁):  
+### Alternative Hypothesis (H₁)  
+There is a difference  
+
+Two-tailed:  
 H₁: μ ≠ 70  
 
+Right-tailed:  
+H₁: μ > 70  
+
+Left-tailed:  
+H₁: μ < 70  
+
 ---
 
-## 7️⃣ P-Value  
+## 9️⃣ Alpha (α) – Significance Level  
 
-- p ≤ 0.05 → ❌ Reject H₀  
-- p > 0.05 → ✅ Do not reject H₀  
+Alpha is the **risk of rejecting a true H₀**.
+
+Common value:  
+α = 0.05  
+
+Meaning:  
+5% chance of making a wrong decision.
 
 ---
 
-## 8️⃣ Z-Test (Large Sample, σ Known)  
+## 🔟 P-Value  
 
-Z = (x̄ − μ) / (σ / √n)  
+The p-value tells us how likely our result is **if H₀ is true**.
+
+### Decision Rule  
+
+- p ≤ α → Reject H₀  
+- p > α → Do not reject H₀  
+
+Small p → Strong evidence  
+Large p → Weak evidence  
+
+---
+
+## 1️⃣1️⃣ Z-Test (Large Sample, Known SD)
+
+Use when:  
+- n ≥ 30  
+- σ known  
+- Testing a mean  
+
+Z = (x̄ − μ) / (σ / √n)
 
 Example:  
-Z = (495 − 500) / (10 / √36)  
-Z = -5 / 1.67 ≈ **-3**
+Z = (495 − 500) / (10 / 6)  
+Z = -3  
+
+p ≈ 0.0026 → Reject H₀  
+
+Conclusion: Bottles are underfilled.
 
 ---
 
-## 9️⃣ T-Test (Small Sample, σ Unknown)  
+## 1️⃣2️⃣ T-Test (Small Sample, Unknown SD)
 
-t = (x̄ − μ) / (s / √n)  
+Use when:  
+- n < 30  
+- σ unknown  
+
+t = (x̄ − μ) / (s / √n)
 
 Example:  
-t ≈ **0.76**
+t = 0.76  
+
+p > 0.05 → Do not reject H₀  
 
 ---
 
-## 🔟 T-Table (α = 0.05, Two-Tailed)  
+## 1️⃣3️⃣ T-Table (α = 0.05)
 
 | df | t |
 |----|---|
 | 4 | 2.776 |
 
+Since 0.76 < 2.776 → Do not reject H₀  
+
 ---
 
-## 1️⃣1️⃣ One-Tailed vs Two-Tailed  
+## 1️⃣4️⃣ One-Tailed vs Two-Tailed  
 
 Two-tailed:  
 H₁: μ ≠ 70  
@@ -253,23 +252,29 @@ H₁: μ < 70
 
 ---
 
-## 1️⃣2️⃣ Chi-Square (χ²) Test  
+## 1️⃣5️⃣ Chi-Square (χ²) Test  
+
+Used for **categorical data**.
 
 χ² = Σ (O − E)² / E  
 
-Where:  
-- O = observed frequency  
-- E = expected frequency  
+Used for:  
+- Goodness of fit  
+- Independence  
+
+Large χ² → Reject H₀  
 
 ---
 
-## 1️⃣3️⃣ ANOVA  
+## 1️⃣6️⃣ ANOVA  
 
-Used to compare **3 or more group means**.
+Used to compare **3 or more means**.
+
+Checks if at least one group is different.
 
 ---
 
-## 1️⃣4️⃣ When to Use Each Test  
+## 1️⃣7️⃣ When to Use Each Test  
 
 | Situation | Test |
 |----------|------|
@@ -280,14 +285,29 @@ Used to compare **3 or more group means**.
 
 ---
 
-## 1️⃣5️⃣ Final Summary  
+## 1️⃣8️⃣ Final Summary  
 
-- 📊 Mean, Median, Mode → Center  
-- 📐 Skewness → Shape  
-- 🔔 Normal distribution → Bell curve  
-- 📏 Z-scores → Distance from mean  
-- 🧪 Hypothesis testing → Check claims  
-- 📉 P-value → Decision tool  
-- 📈 Z & T-tests → Compare means  
-- 🧮 Chi-square → Categories  
-- 📊 ANOVA → Many groups  
+- Mean, Median, Mode → Center  
+- Skewness → Shape  
+- Normal distribution → Bell curve  
+- Z-score → Distance from mean  
+- Hypothesis → Claim  
+- H₀ → No change  
+- H₁ → There is change  
+- Alpha → Risk  
+- P-value → Evidence  
+- Z/T-tests → Compare means  
+- Chi-square → Categories  
+- ANOVA → Many groups  
+
+---
+
+## 📌 Want More?
+
+I can also:  
+📘 Create a 1-page cheat sheet  
+📝 Add MCQs + answers  
+🎯 Make a mock exam paper  
+📄 Convert to PDF / Word  
+
+Just tell me what you want 😊  
