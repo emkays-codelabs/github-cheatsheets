@@ -1,10 +1,10 @@
-# 📘 Hypothesis Testing – Complete, Elaborated & Exam-Ready Notes  
+# 📘 Statistics & Hypothesis Testing – Complete Exam Notes  
 
 ---
 
-## 1️⃣ Mean, Median & Mode  
+## 1️⃣ Measures of Central Tendency  
 
-These describe the **center** of a dataset.
+These describe the **center** of data.
 
 ### Mean (Average)  
 Mean = (Sum of all values) / Number of values  
@@ -26,63 +26,73 @@ Most frequent value.
 ## 2️⃣ Skewness (Shape of Data)
 
 | Type | Description | Example |
-|----|----|----|
+|------|------------|---------|
 | Right-skewed | Mean > Median > Mode | Income |
 | Left-skewed | Mean < Median < Mode | Easy exam |
-| Symmetric | Mean = Median = Mode | Normal curve |
+| Symmetric | Mean = Median = Mode | Normal data |
 
 ---
 
 ## 3️⃣ Normal Distribution  
 
-Bell-shaped curve 🔔  
+A **bell-shaped curve** 🔔  
 Mean = Median = Mode  
 
 ### 68–95–99.7 Rule
 
 | Range | % of Data |
-|----|----|
+|-------|-----------|
 | μ ± 1σ | 68% |
 | μ ± 2σ | 95% |
 | μ ± 3σ | 99.7% |
+
+Example:  
+If mean = 70, SD = 10  
+• 68% of scores are between 60 and 80  
 
 ---
 
 ## 4️⃣ Z-Score  
 
-Measures distance from mean.
+Measures how far a value is from the mean.
 
 Z = (x − μ) / σ  
 
 Example:  
+Score = 80  
+Mean = 70  
+SD = 5  
+
 Z = (80 − 70) / 5 = 2  
 
 Meaning:  
-Score is **2 SDs above mean**.
+The score is **2 SD above** the mean.
 
 ---
 
-## 5️⃣ Standard Normal Distribution & Z-Table  
-
-Mean = 0, SD = 1  
+## 5️⃣ Z-Table (Standard Normal Table)
 
 | Z | Area to Left |
-|----|----|
+|----|-------------|
 | 0.00 | 0.5000 |
 | 1.00 | 0.8413 |
 | 1.96 | 0.9750 |
 | -1.00 | 0.1587 |
 
-### How to Read Z-Table  
-1. Row → first two digits  
-2. Column → second decimal  
-3. Value → probability to the left  
+### How to Read  
+1. Row = first two digits  
+2. Column = decimal  
+3. Value = probability to the left  
+
+Example:  
+Z = 1.23 → Area ≈ 0.8907  
+Meaning: 89.07% is below this value.
 
 ---
 
 ## 6️⃣ What is a Hypothesis?
 
-A **hypothesis** is a statement about a population parameter.
+A **hypothesis** is a statement about a population.
 
 Example:  
 "The average score is 70."
@@ -91,12 +101,12 @@ Example:
 
 ## 7️⃣ Hypothesis Testing  
 
-Hypothesis testing uses **sample data** to decide whether a population claim is likely true.
+Used to decide if a claim is **supported by data**.
 
-Steps:
+Steps:  
 1. State H₀ and H₁  
 2. Choose test  
-3. Compute statistic (z, t, χ²)  
+3. Calculate statistic  
 4. Find p-value  
 5. Make conclusion  
 
@@ -104,150 +114,145 @@ Steps:
 
 ## 8️⃣ Null Hypothesis (H₀)
 
-H₀ represents **no change or no difference**.
+H₀ = No change / no effect  
 
 Example:  
 H₀: μ = 70  
-
-Meaning:  
-Assume nothing unusual is happening.
 
 ---
 
 ## 9️⃣ Alternative Hypothesis (H₁)
 
-Represents a **difference or effect**.
+H₁ = There is a change  
 
-| Type | Form | Meaning |
-|----|----|----|
-| Two-tailed | μ ≠ 70 | Any difference |
-| Right-tailed | μ > 70 | Increase |
-| Left-tailed | μ < 70 | Decrease |
+| Type | Meaning |
+|------|---------|
+| μ ≠ 70 | Two-tailed |
+| μ > 70 | Right-tailed |
+| μ < 70 | Left-tailed |
 
 ---
 
 ## 🔟 Significance Level (Alpha, α)
 
-Alpha is the **probability of rejecting a true H₀**.
+α = Probability of wrong decision  
 
 Common value:  
 α = 0.05  
 
 Meaning:  
-5% risk of making a wrong decision.
+5% risk of rejecting a true H₀.
 
 ---
 
 ## 1️⃣1️⃣ P-Value  
 
-Probability of getting the sample result **if H₀ is true**.
-
-### Decision Rule
+The **p-value** shows how likely the result is **if H₀ is true**.
 
 | p-value | Decision |
-|----|----|
-| p ≤ 0.05 | Reject H₀ |
-| p > 0.05 | Do not reject H₀ |
-
-Small p → strong evidence  
-Large p → weak evidence  
+|----------|----------|
+| p ≤ α | Reject H₀ |
+| p > α | Do not reject H₀ |
 
 ---
 
 ## 1️⃣2️⃣ Z-Test (Large Sample, σ Known)
 
 ### When to Use  
-- n ≥ 30  
-- σ known  
-- Testing a mean  
+• n ≥ 30  
+• σ known  
+• Testing a mean  
 
+### Formula  
 Z = (x̄ − μ) / (σ / √n)
 
 ### Example  
-μ = 500  
-x̄ = 495  
-σ = 10, n = 36  
 
+Claim: μ = 500  
+Sample mean = 495  
+σ = 10  
+n = 36  
+
+Z = (495 − 500) / (10 / 6)  
 Z ≈ −3  
+
 p ≈ 0.0026  
 
 ### Conclusion  
 p < 0.05 → Reject H₀  
-Bottles are underfilled.
+Bottles are **underfilled**.
 
 ---
 
-## 1️⃣3️⃣ T-Test (Small Sample, σ Unknown)
+## 1️⃣3️⃣ One-Sample T-Test  
 
-t = (x̄ − μ) / (s / √n)
+### When to Use  
+• n < 30  
+• σ unknown  
+• Compare to known value  
 
----
-
-## 1️⃣4️⃣ Types of T-Tests  
-
-| Type | Purpose |
-|----|----|
-| One-sample | Compare with known mean |
-| Independent | Compare two groups |
-| Paired | Before vs After |
-
----
-
-## 1️⃣5️⃣ One-Sample T-Test Example  
+### Example  
 
 Scores: 65, 68, 75, 80, 72  
-
 Mean = 72  
 SD ≈ 5.87  
 n = 5  
 
+t = (72 − 70) / (5.87 / √5)  
 t ≈ 0.76  
-df = 4  
 
+df = 4  
 t-critical = 2.776  
 
 ### Conclusion  
-|t| < t-critical → Do not reject H₀  
-No significant difference from 70.
+|0.76| < 2.776  
+Do not reject H₀  
+No significant difference.
 
 ---
 
-## 1️⃣6️⃣ Independent T-Test  
+## 1️⃣4️⃣ Independent T-Test  
 
-Used to compare **two independent groups**.
+### Purpose  
+Compare **two different groups**  
+
+### Example  
+
+Class A mean = 70  
+Class B mean = 78  
 
 H₀: μ₁ = μ₂  
 H₁: μ₁ ≠ μ₂  
 
+Suppose p = 0.03  
+
 ### Conclusion  
-Reject H₀ → Groups differ  
-Do not reject → Groups similar  
+p < 0.05 → Reject H₀  
+The classes are **significantly different**.
 
 ---
 
-## 1️⃣7️⃣ Paired T-Test  
+## 1️⃣5️⃣ Paired T-Test  
 
-Used for **before-after comparisons**.
+### Purpose  
+Compare **before vs after**  
+
+### Example  
+
+Before training: 60  
+After training: 70  
 
 H₀: μd = 0  
 
+Suppose p = 0.01  
+
 ### Conclusion  
-Reject H₀ → Change occurred  
-Do not reject → No clear effect  
+Reject H₀  
+Training **improved performance**.
 
 ---
 
-## 1️⃣8️⃣ T-Test Conclusion Summary  
-
-| Test | Reject H₀ Means |
-|----|----|
-| One-sample | Mean differs |
-| Independent | Groups differ |
-| Paired | Change occurred |
-
----
-
-## 1️⃣9️⃣ T-Table (α = 0.05)
+## 1️⃣6️⃣ T-Table (α = 0.05)
 
 | df | t |
 |----|----|
@@ -259,50 +264,103 @@ Do not reject → No clear effect
 | 10 | 2.228 |
 | ∞ | 1.960 |
 
+How to use:  
+1. Find df  
+2. Choose α  
+3. Pick tail  
+4. Compare |t|  
+
 ---
 
-## 2️⃣0️⃣ Chi-Square Test  
+## 1️⃣7️⃣ Chi-Square Test (χ²)
 
 Used for **categorical data**.
 
-χ² = Σ (O − E)² / E  
+### Example: Goodness of Fit  
+
+A die is rolled 60 times.
+
+| Outcome | Observed | Expected |
+|--------|----------|----------|
+| 1 | 8 | 10 |
+| 2 | 9 | 10 |
+| 3 | 12 | 10 |
+| 4 | 11 | 10 |
+| 5 | 10 | 10 |
+| 6 | 10 | 10 |
+
+χ² = 1.0  
+df = 5  
+Critical = 11.07  
 
 ### Conclusion  
-Large χ² → Reject H₀  
-Small χ² → Do not reject  
+1.0 < 11.07  
+Do not reject H₀  
+The die is **fair**.
 
 ---
 
-## 2️⃣1️⃣ ANOVA  
+## 1️⃣8️⃣ Chi-Square (Independence)  
 
-Compares **3 or more group means**.
+### Example  
 
-H₀: All means equal  
-H₁: At least one differs  
+Survey: Gender vs Preference  
+
+|        | Like | Dislike |
+|--------|------|---------|
+| Male   | 30   | 10 |
+| Female | 20   | 20 |
+
+Result: χ² = 6.5  
+p = 0.01  
 
 ### Conclusion  
-p ≤ 0.05 → Groups differ  
+Reject H₀  
+Preference depends on gender.
 
 ---
 
-## 2️⃣2️⃣ When to Use Each Test  
+## 1️⃣9️⃣ ANOVA (3+ Groups)
+
+### Purpose  
+Compare **three or more means**  
+
+### Example  
+
+| Group | Mean |
+|------|------|
+| A | 70 |
+| B | 75 |
+| C | 85 |
+
+p = 0.02  
+
+### Conclusion  
+Reject H₀  
+At least one group is **different**.
+
+---
+
+## 2️⃣0️⃣ When to Use Each Test
 
 | Situation | Test |
-|----|----|
+|----------|------|
 | Large n, σ known | Z-test |
-| Small n, σ unknown | T-test |
-| Categorical data | Chi-square |
-| 3+ means | ANOVA |
+| Small n | T-test |
+| Two groups | Independent T |
+| Before/After | Paired T |
+| Categorical | Chi-square |
+| 3+ groups | ANOVA |
 
 ---
 
-## 2️⃣3️⃣ Final Exam Summary  
+## 2️⃣1️⃣ Final Exam Summary  
 
 • H₀ = No effect  
-• H₁ = Effect exists  
+• H₁ = There is an effect  
 • α = Significance level  
 • p-value = Evidence strength  
-• Reject H₀ = Significant result  
+• Reject H₀ = Significant  
 • Z-test = Large sample  
 • T-test = Small sample  
 • Chi-square = Categories  
