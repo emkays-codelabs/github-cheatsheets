@@ -1,5 +1,6 @@
 
-````md
+
+md
 # 🚀 Git Workflow Guide  
 ### Branch • Commit • HEAD • Staging Areas  
 
@@ -241,7 +242,6 @@ git log --oneline --graph
 git branch
 git checkout dev
 ```
-
 ---
 
 ## 🎉 Congratulations!
