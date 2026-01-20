@@ -1,6 +1,4 @@
-
-
-md
+---
 # 🚀 Git Workflow Guide  
 ### Branch • Commit • HEAD • Staging Areas  
 
