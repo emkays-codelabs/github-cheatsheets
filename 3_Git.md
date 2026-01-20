@@ -227,8 +227,8 @@ git log --graph
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/followers/emkays-codelabs?style=for-the-badge&logo=github&color=blue" />
-  <img src="https://img.shields.io/github/stars/emkays-codelabs?style=for-the-badge&logo=github&color=yellow" />
+  <img src="https://img.shields.io/github/followers/emkays-codelabs?label=Followers&style=for-the-badge&logo=github&color=0d6efd" />
+  <img src="https://img.shields.io/github/stars/emkays-codelabs?label=Stars&style=for-the-badge&logo=github&color=f1c40f" />
 </p>
 
 <p align="center">
