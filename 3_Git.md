@@ -236,9 +236,7 @@ git log --graph
   ⭐ Star my repos to boost my coding superpowers 💪
 </p>
 
-<p align="center" style="font-size:18px; font-weight:bold;">
-  🔴 Learn. 🔵 Code. 🟢 Build. 🟡 Improve. 🟣 Grow together! 😊
-</p>
+
 <p align="center">
   <img src="https://img.shields.io/badge/Learn-red?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Code-blue?style=for-the-badge" />
@@ -249,7 +247,8 @@ git log --graph
 
 
 <p align="center">
-  <em>Happy Coding!</em> 🚀
+  <em>Stay curious. Keep coding.🔥
+</em> 
 </p>
 
 
