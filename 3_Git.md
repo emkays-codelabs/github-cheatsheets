@@ -239,6 +239,13 @@ git log --graph
 <p align="center" style="font-size:18px; font-weight:bold;">
   🔴 Learn. 🔵 Code. 🟢 Build. 🟡 Improve. 🟣 Grow together! 😊
 </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Learn-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Code-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Build-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Improve-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Grow%20Together-purple?style=for-the-badge" />
+</p>
 
 
 <p align="center">
