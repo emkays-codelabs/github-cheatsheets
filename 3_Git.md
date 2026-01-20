@@ -225,11 +225,11 @@ git log --graph
     github.com/emkays-codelabs
   </a>
 </p>
-
 <p align="center">
-  <img src="https://img.shields.io/github/followers/emkays-codelabs?style=social&logo=github" />
-  <img src="https://img.shields.io/github/stars/emkays-codelabs?style=social&logo=github" />
+  <img src="https://img.shields.io/github/followers/emkays-codelabs?label=Followers&style=flat&logo=github" />
+  <img src="https://img.shields.io/github/stars/emkays-codelabs?label=Stars&style=flat&logo=github" />
 </p>
+
 
 
 <p align="center">
