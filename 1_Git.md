@@ -250,17 +250,10 @@ You now understand the **complete Git workflow**
 from initialization to branching and commit history.
 
 Happy Coding! 🚀
+## 👤 Author
 
-```
+**Emkay**  
+- GitHub: https://github.com/emkays-codelabs  
 
 ---
 
-If you want:
-
-📄 PDF version  
-📊 PPT slides  
-📝 Exam notes  
-🎨 Dark-themed GitHub README  
-
-Just tell me — I’ll generate it for you 😊
-```
