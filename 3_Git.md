@@ -242,29 +242,6 @@ git log --graph
   <span style="color:#6f42c1;">Grow together!</span> 😊
 </p>
 
-
-<p align="center" style="color:#1f6feb; font-size:18px; font-weight:bold;">
-  Learn. Code. Build. Improve. Grow together! 😊
-</p>
-
-
-<p align="center" style="font-size:18px; font-weight:bold;">
-  <span style="color:#ff5733;">Learn.</span>
-  <span style="color:#33c1ff;">Code.</span>
-  <span style="color:#28a745;">Build.</span>
-  <span style="color:#ffc107;">Improve.</span>
-  <span style="color:#6f42c1;">Grow together!</span> 😊
-</p>
-
-<p align="center" style="color:#0d6efd; font-size:18px; font-weight:700; text-decoration: underline;">
-  Learn. Code. Build. Improve. Grow together! 😊
-</p>
-
-<p align="center" style="color:#8b5cf6; font-size:18px; font-style:italic;">
-  Learn. Code. Build. Improve. Grow together! 😊
-</p>
-
-
 <p align="center">
   <em>Happy Coding!</em> 🚀
 </p>
