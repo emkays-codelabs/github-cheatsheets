@@ -236,9 +236,8 @@ git log --graph
 </p>
 
 <p align="center">
-  😎 Follow me for **code magic** <br/>
-  ⭐ Star my repos for **good luck** <br/>
-  ✨ Enthusiastic about learning, building, and exploring new technologies.  
+  😎 Follow me for **debugging wisdom & coffee-fueled commits** <br/>
+  ⭐ Star my repos to **boost my coding superpowers** 💪  
 </p>
 
 <p align="center">
@@ -246,6 +245,7 @@ git log --graph
 </p>
 
 ---
+
 
 
 ## 📤 Push the Updated File
