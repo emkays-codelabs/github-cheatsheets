@@ -210,41 +210,43 @@ git log --graph
 | `git branch -a`                   | All branches         |
 | `git log --graph`                 | Visual commit tree   |
 
----
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,100:1f6feb&height=180&section=header&text=Welcome!&fontSize=40&fontColor=ffffff" />
 </p>
 
-<div align="center">
+---
 
-<img src="https://avatars.githubusercontent.com/emkays-codelabs" width="160px" style="border-radius: 50%; border: 4px solid #58a6ff;" />
+## 👨‍💻 Author
 
-<h2>Emkay</h2>
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/emkays-codelabs" width="130px" style="border-radius: 50%;" />
+</p>
 
-<p>
+<h3 align="center">Emkay</h3>
+
+<p align="center">
   <a href="https://github.com/emkays-codelabs">
-    <img src="https://img.shields.io/badge/GitHub-emkays--codelabs-181717?style=for-the-badge&logo=github" />
+    github.com/emkays-codelabs
   </a>
 </p>
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/github/followers/emkays-codelabs?style=for-the-badge&logo=github&color=blue" />
   <img src="https://img.shields.io/github/stars/emkays-codelabs?style=for-the-badge&logo=github&color=yellow" />
 </p>
 
-<p>
-  ✨ Enthusiastic about learning, building, and exploring new technologies.<br/>
-  🚀 Turning ideas into real-world projects.<br/>
-  💡 Always curious. Always improving.
+<p align="center">
+  😎 Follow me for **code magic** <br/>
+  ⭐ Star my repos for **good luck** <br/>
+  ✨ Enthusiastic about learning, building, and exploring new technologies.  
 </p>
 
-<p>
-  <em>Happy Coding!</em> 💻🔥
+<p align="center">
+  <em>Happy Coding!</em> 🚀
 </p>
-
-</div>
 
 ---
+
 
 ## 📤 Push the Updated File
 
