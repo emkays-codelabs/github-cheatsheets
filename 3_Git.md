@@ -234,6 +234,8 @@ git log --graph
 <p align="center">
   😎 Follow me for <strong>clean code and cool projects </strong><br/>
   ⭐ Star my repos to <strong>boost my coding superpowers</strong> 💪
+     <strong>Learn. Code. Build. Improve. Let’s grow together! </strong> 😊
+
 </p>
 
 <p align="center">
