@@ -1,4 +1,4 @@
-```md
+---
 # 🚀 Git Concepts Explained Clearly
 
 ![Git](https://img.shields.io/badge/Git-Version%20Control-orange)
