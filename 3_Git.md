@@ -6,7 +6,7 @@
 ![GitHub](https://img.shields.io/badge/GitHub-Hosting-black)
 ![Level](https://img.shields.io/badge/Level-Beginner-green)
 ![Status](https://img.shields.io/badge/Status-Learning-blue)
-![Format](https://img.shields.io/badge/Format-Markdown-lightgrey)
+
 
 A clear guide to understand **Git history, commit inspection, branches, reset behavior, and internal storage**.
 
