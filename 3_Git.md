@@ -216,20 +216,30 @@ git log --graph
 
 ## 👨‍💻 Author
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://avatars.githubusercontent.com/emkays-codelabs" width="120px" style="border-radius: 50%;" /><br/>
-      <strong>Emkay</strong><br/>
-      <a href="https://github.com/emkays-codelabs">github.com/emkays-codelabs</a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/emkays-codelabs" width="140px" style="border-radius: 50%;" />
+</p>
 
-✨ Passionate about learning, building, and sharing Git & GitHub knowledge.  
-Happy Coding 🚀
+<h3 align="center">Emkay</h3>
+
+<p align="center">
+  <a href="https://github.com/emkays-codelabs">
+    🔗 github.com/emkays-codelabs
+  </a>
+</p>
+
+<p align="center">
+  ✨ Enthusiastic about learning, building, and exploring new technologies.  
+  <br/>
+  🚀 Turning ideas into real-world projects.
+</p>
+
+<p align="center">
+  <em>Happy Coding!</em> 💻🔥
+</p>
 
 ---
+
 
 
 ````
