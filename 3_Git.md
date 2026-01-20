@@ -210,16 +210,12 @@ git log --graph
 | `git branch -a`                   | All branches         |
 | `git log --graph`                 | Visual commit tree   |
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,100:1f6feb&height=180&section=header&text=Welcome!&fontSize=40&fontColor=ffffff" />
-</p>
-
 ---
 
 ## 👨‍💻 Author
 
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/emkays-codelabs" width="130px" style="border-radius: 50%;" />
+  <img src="https://avatars.githubusercontent.com/emkays-codelabs" width="140px" style="border-radius: 50%;" />
 </p>
 
 <h3 align="center">Emkay</h3>
@@ -236,8 +232,8 @@ git log --graph
 </p>
 
 <p align="center">
-  😎 Follow me for **debugging wisdom & coffee-fueled commits** <br/>
-  ⭐ Star my repos to **boost my coding superpowers** 💪  
+  😎 Follow me for <strong>debugging wisdom & coffee-fueled commits</strong><br/>
+  ⭐ Star my repos to <strong>boost my coding superpowers</strong> 💪
 </p>
 
 <p align="center">
@@ -245,6 +241,8 @@ git log --graph
 </p>
 
 ---
+
+
 
 
 
