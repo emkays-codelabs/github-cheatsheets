@@ -232,7 +232,7 @@ git log --graph
 </p>
 
 <p align="center">
-  😎 Follow me for <strong>debugging wisdom & coffee-fueled commits</strong><br/>
+  😎 Follow me for <strong>clean code and cool projects </strong><br/>
   ⭐ Star my repos to <strong>boost my coding superpowers</strong> 💪
 </p>
 
