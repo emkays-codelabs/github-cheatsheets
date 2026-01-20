@@ -211,6 +211,9 @@ git log --graph
 | `git log --graph`                 | Visual commit tree   |
 
 ---
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,100:1f6feb&height=180&section=header&text=Welcome!&fontSize=40&fontColor=ffffff" />
+</p>
 
 <div align="center">
 
