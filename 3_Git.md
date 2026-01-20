@@ -242,7 +242,7 @@ git log --graph
   <img src="https://img.shields.io/badge/Code-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Build-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Improve-yellow?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Grow%20Together-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Level up%20Together-purple?style=for-the-badge" />
 </p>
 
 
