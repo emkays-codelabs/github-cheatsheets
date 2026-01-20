@@ -231,16 +231,14 @@ git log --graph
   <img src="https://img.shields.io/github/stars/emkays-codelabs?style=for-the-badge&logo=github&color=yellow" />
 </p>
 
-<p align="center">
-  😎 Follow me for <strong>clean code and cool projects </strong><br/>
-  ⭐ Star my repos to <strong>boost my coding superpowers</strong> 💪<br/>
-  <p align="center" style="font-size:18px; font-weight:bold;">
+<p align="center" style="font-size:18px; font-weight:bold;">
   <span style="color:#ff5733;">Learn.</span>
   <span style="color:#33c1ff;">Code.</span>
   <span style="color:#28a745;">Build.</span>
   <span style="color:#ffc107;">Improve.</span>
   <span style="color:#6f42c1;">Grow together!</span> 😊
 </p>
+
 
 <p align="center">
   <em>Happy Coding!</em> 🚀
