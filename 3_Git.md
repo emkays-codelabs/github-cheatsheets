@@ -227,9 +227,10 @@ git log --graph
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/followers/emkays-codelabs?label=Followers&style=for-the-badge&logo=github&color=0d6efd" />
-  <img src="https://img.shields.io/github/stars/emkays-codelabs?label=Stars&style=for-the-badge&logo=github&color=f1c40f" />
+  <img src="https://img.shields.io/github/followers/emkays-codelabs?style=social&logo=github" />
+  <img src="https://img.shields.io/github/stars/emkays-codelabs?style=social&logo=github" />
 </p>
+
 
 <p align="center">
   😎 Follow me for clean code and cool projects<br/>
