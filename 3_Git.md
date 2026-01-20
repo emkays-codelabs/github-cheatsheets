@@ -237,12 +237,9 @@ git log --graph
 </p>
 
 <p align="center" style="font-size:18px; font-weight:bold;">
-  <span style="color:#ff5733;">Learn.</span>
-  <span style="color:#33c1ff;">Code.</span>
-  <span style="color:#28a745;">Build.</span>
-  <span style="color:#ffc107;">Improve.</span>
-  <span style="color:#6f42c1;">Grow together!</span> 😊
+  🔴 Learn. 🔵 Code. 🟢 Build. 🟡 Improve. 🟣 Grow together! 😊
 </p>
+
 
 <p align="center">
   <em>Happy Coding!</em> 🚀
