@@ -212,37 +212,34 @@ git log --graph
 
 ---
 
----
+<div align="center">
 
-## 👨‍💻 Author
+<img src="https://avatars.githubusercontent.com/emkays-codelabs" width="160px" style="border-radius: 50%; border: 4px solid #58a6ff;" />
 
-<p align="center">
-  <img src="https://avatars.githubusercontent.com/emkays-codelabs" width="140px" style="border-radius: 50%;" />
-</p>
+<h2>Emkay</h2>
 
-<h3 align="center">Emkay</h3>
-
-<p align="center">
+<p>
   <a href="https://github.com/emkays-codelabs">
-    🔗 github.com/emkays-codelabs
+    <img src="https://img.shields.io/badge/GitHub-emkays--codelabs-181717?style=for-the-badge&logo=github" />
   </a>
 </p>
 
-<p align="center">
-  ✨ Enthusiastic about learning, building, and exploring new technologies.  
-  <br/>
-  🚀 Turning ideas into real-world projects.
+<p>
+  <img src="https://img.shields.io/github/followers/emkays-codelabs?style=for-the-badge&logo=github&color=blue" />
+  <img src="https://img.shields.io/github/stars/emkays-codelabs?style=for-the-badge&logo=github&color=yellow" />
 </p>
 
-<p align="center">
+<p>
+  ✨ Enthusiastic about learning, building, and exploring new technologies.<br/>
+  🚀 Turning ideas into real-world projects.<br/>
+  💡 Always curious. Always improving.
+</p>
+
+<p>
   <em>Happy Coding!</em> 💻🔥
 </p>
 
----
-
-
-
-````
+</div>
 
 ---
 
