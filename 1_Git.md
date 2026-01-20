@@ -2,10 +2,11 @@
 # 🚀 Git Workflow Guide  
 ### Branch • Commit • HEAD • Staging Areas  
 
-![Git](https://img.shields.io/badge/Git-Workflow-orange?logo=git)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![Level](https://img.shields.io/badge/Level-Beginner-blue)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![Git](https://img.shields.io/badge/Git-Workflow-F05032?logo=git&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Active-2ECC71)
+![Level](https://img.shields.io/badge/Level-Beginner-3498DB)
+![GitHub](https://img.shields.io/badge/GitHub-emkays--codelabs-black?logo=github)
+
 
 A clean and simple guide to understand how Git works — from `git init` to commits, branches, HEAD, and staging areas.
 
