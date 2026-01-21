@@ -320,5 +320,44 @@ git commit -m "Add Git concepts documentation"
 git push
 ````
 
+## 👨‍💻 Author
+
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/emkays-codelabs" width="140px" style="border-radius: 50%;" />
+</p>
+
+<h3 align="center">Emkay</h3>
+
+<p align="center">
+  <a href="https://github.com/emkays-codelabs">
+    github.com/emkays-codelabs
+  </a>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/github/followers/emkays-codelabs?label=Followers&style=flat&logo=github" />
+  <img src="https://img.shields.io/github/stars/emkays-codelabs?label=Stars&style=flat&logo=github" />
+</p>
+
+
+
+<p align="center">
+  😎 Follow me for clean code and cool projects<br/>
+  ⭐ Star my repos to boost my coding superpowers 💪
+</p>
+
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Learn-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Code-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Build-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Improve-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Level up%20Together-purple?style=for-the-badge" />
+</p>
+
+
+<p align="center">
+  <em>Stay curious. Keep coding.🔥
+</em> 
+</p>
 ---
 
