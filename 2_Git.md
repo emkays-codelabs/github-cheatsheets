@@ -39,6 +39,8 @@ Set your Git identity:
 ```cmd
 git config --global user.name "your-username"
 git config --global user.email "your-email@example.com"
+git config --global user.name "Your New Name"
+
 ````
 
 Verify:
@@ -323,4 +325,5 @@ git push ☁️
 Happy Coding 🚀
 
 ````
+
 
