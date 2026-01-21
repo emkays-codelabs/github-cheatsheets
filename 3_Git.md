@@ -1,6 +1,6 @@
 ---
 
-# 🚀 Git Workflow & Log Commands – Beginner Friendly Guide
+# 📘 Git Commands 3 – Complete Workflow Guide
 
 ![Git](https://img.shields.io/badge/Git-Version%20Control-orange)
 ![GitHub](https://img.shields.io/badge/GitHub-Hosting-black)
