@@ -1,5 +1,5 @@
 ---
-# 🚀 Git Concepts Explained Clearly
+# 📘 Git Commands 1 – Complete Workflow Guide
 
 ![Git](https://img.shields.io/badge/Git-Version%20Control-orange)
 ![Level](https://img.shields.io/badge/Level-Beginner-green)
